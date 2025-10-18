@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jewellery - Crafted Charm</title>
+    <link rel="stylesheet" href="/styles/jewellery.css">
+    <link rel="icon" href="/images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search" />
+</head>
+<body>
+
+    <header>
+        <div class="header-section">
+                <a href="#" class="logo">
+                    <img src="/images/logo.png" alt="crafted charm logo" width="200px" height="auto">
+                </a>
+
+            <div class="search-cart-wrapper">
+                <div class="search-container">
+                    <form>
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit">
+                        <span class="material-symbols-outlined">search</span>
+                    </button>
+                    </form>
+                </div>
+
+                <div class="cart-container">
+                    <div class="cart">
+                    <a href="/pages/cart.html"><img src="/images/cart.svg" alt="cart"></a>
+                    <span class="cart-count">2</span>
+                    </div>
+                </div>
+
+                <div class="auth-container">
+                    <a href="/pages/signin.html" class="auth-link">
+                        <img src="/images/member.svg" alt="cart" class="auth-icon">
+                    </a>
+                </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section class= "all-sections">
+            <div id="intro">
+                <h1>Crafted Charm Jewellery</h1>
+            </div>
+        </section>
+
+
+        <section class="all-sections">
+            <details class="mobile-filters">
+                <summary>Show Filters</summary>
+                <form class="filters">
+                    <div class="filter-group">
+                        <h3>Type</h3>
+                        <label><input type="checkbox" name="type" value="necklace"> Necklace</label>
+                        <label><input type="checkbox" name="type" value="ring"> Ring</label>
+                        <label><input type="checkbox" name="type" value="bracelet"> Bracelet</label>
+                        <label><input type="checkbox" name="type" value="earrings"> Earrings</label>
+                    </div>
+
+                    <div class="filter-group">
+                        <h3>Material</h3>
+                        <label><input type="checkbox" name="material" value="gold"> Gold</label>
+                        <label><input type="checkbox" name="material" value="silver"> Silver</label>
+                        <label><input type="checkbox" name="material" value="platinum"> Platinum</label>
+                        <label><input type="checkbox" name="material" value="beads"> Beads</label>
+                    </div>
+
+                    <div class="filter-group">
+                        <h3>Gemstone</h3>
+                        <label><input type="checkbox" name="gemstone" value="diamond"> Diamond</label>
+                        <label><input type="checkbox" name="gemstone" value="ruby"> Ruby</label>
+                        <label><input type="checkbox" name="gemstone" value="emerald"> Emerald</label>
+                        <label><input type="checkbox" name="gemstone" value="none"> None</label>
+                    </div>
+
+                    <div class="filter-group">
+                        <h3>Size</h3>
+                        <label><input type="checkbox" name="size" value="small"> Small</label>
+                        <label><input type="checkbox" name="size" value="medium"> Medium</label>
+                        <label><input type="checkbox" name="size" value="large"> Large</label>
+                        <label><input type="checkbox" name="size" value="adjustable"> Adjustable</label>
+                    </div>
+
+                    <div class="filter-group">
+                        <h3>Price</h3>
+                        <label><input type="checkbox" name="price" value="0-50"> £0 – £50</label>
+                        <label><input type="checkbox" name="price" value="51-100"> £51 – £100</label>
+                        <label><input type="checkbox" name="price" value="101-200"> £101 – £200</label>
+                        <label><input type="checkbox" name="price" value="200+"> £200+</label>
+                    </div>
+                </form>
+            </details>
+
+            <!-- Desktop Filters -->
+            <form class="filters">
+                <div class="filter-group">
+                    <h3>Type</h3>
+                    <label><input type="checkbox" name="type" value="necklace"> Necklace</label>
+                    <label><input type="checkbox" name="type" value="ring"> Ring</label>
+                    <label><input type="checkbox" name="type" value="bracelet"> Bracelet</label>
+                    <label><input type="checkbox" name="type" value="earrings"> Earrings</label>
+                </div>
+
+                <div class="filter-group">
+                    <h3>Material</h3>
+                    <label><input type="checkbox" name="material" value="gold"> Gold</label>
+                    <label><input type="checkbox" name="material" value="silver"> Silver</label>
+                    <label><input type="checkbox" name="material" value="platinum"> Platinum</label>
+                    <label><input type="checkbox" name="material" value="beads"> Beads</label>
+                </div>
+
+                <div class="filter-group">
+                    <h3>Gemstone</h3>
+                    <label><input type="checkbox" name="gemstone" value="diamond"> Diamond</label>
+                    <label><input type="checkbox" name="gemstone" value="ruby"> Ruby</label>
+                    <label><input type="checkbox" name="gemstone" value="emerald"> Emerald</label>
+                    <label><input type="checkbox" name="gemstone" value="none"> None</label>
+                </div>
+
+                <div class="filter-group">
+                    <h3>Size</h3>
+                    <label><input type="checkbox" name="size" value="small"> Small</label>
+                    <label><input type="checkbox" name="size" value="medium"> Medium</label>
+                    <label><input type="checkbox" name="size" value="large"> Large</label>
+                    <label><input type="checkbox" name="size" value="adjustable"> Adjustable</label>
+                </div>
+
+                <div class="filter-group">
+                    <h3>Price</h3>
+                    <label><input type="checkbox" name="price" value="0-50"> £0 – £50</label>
+                    <label><input type="checkbox" name="price" value="51-100"> £51 – £100</label>
+                    <label><input type="checkbox" name="price" value="101-200"> £101 – £200</label>
+                    <label><input type="checkbox" name="price" value="200+"> £200+</label>
+                </div>
+            </form>
+        </section>
+
+
+            <div class="products">
+                <div class="product">
+                    <a href="jewellery-details.html">
+                        <img src="/images/jewelry1.jpg" alt="Jewellery set">
+                        <h4>Jewellery set</h4>
+                        <p class="price">£140.00</p>
+                    </a>
+                    <button class="cta-button" title="Add item to cart">
+                        <img src="/images/cart-add.svg" alt="Add item to cart" id="cart-add">
+                    </button>
+                </div>
+
+                <div class="product">
+                    <a href="page404.html">
+                        <img src="/images/jewelry2.jpg" alt="Jewellery">
+                        <h4>Jewellery set</h4>
+                        <p class="price">£90.00  </p>
+                        <p class="price" style="text-decoration: line-through;">£120.00</p>
+                    </a>
+                    <button class="cta-button" title="Add item to cart">
+                        <img src="/images/cart-add.svg" alt="Add item to cart" id="cart-add">
+                    </button>
+                </div>
+
+                <div class="product">
+                    <a href="page404.html">
+                        <img src="/images/jewelry3.jpg" alt="Earrings with blue gem">
+                        <h4>Earrings with blue gem</h4>
+                        <p class="price">£20.99</p>
+                    </a>
+                    <button class="cta-button" title="Add item to cart">
+                        <img src="/images/cart-add.svg" alt="Add item to cart" id="cart-add">
+                    </button>
+                </div>
+
+                <div class="product">
+                    <a href="page404.html">
+                        <img src="/images/jewelry4.jpg" alt="Bracelet">
+                        <h4>Bracelet</h4>
+                        <p class="price">£20.99</p>
+                    </a>
+                    
+                    <button class="cta-button" title="Add item to cart">
+                        <img src="/images/cart-add.svg" alt="Add item to cart" id="cart-add">
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="all-sections" id="pagination-section">
+            <nav class="pagination">
+                <button class="prev"><img src="/images/arrow-left.svg" ></button>
+                <button class="page active">1</button>
+                <button class="page">2</button>
+                <button class="page">3</button>
+                <button class="page">4</button>
+                <button class="page">5</button>
+                <button class="next"><img src="/images/arrow-right.svg" ></button>
+            </nav>
+        </section>
+    </main>
+
+
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Crafted Charm</h3>
+                <p>We are passionate artisans dedicated to creating beautiful, handmade treasures that bring joy and meaning to everyday life.</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <p><a href="#">Home</a></p>
+                <p><a href="#">Contact Us</a></p>
+                <p><a href="pages/cart.html">Cart</a></p>
+                <p><a href="#shipping">Shipping Info</a></p>
+                <p><a href="#categories-section">Categories</a></p>
+                <p><a href="#featured-section">Featured Project</a></p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p>support@craftedcharm.com</p>
+                <p>020 1234 56789</p>
+                <p>67 Bryan Avenue, RN11 9RT, London</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#" title="Facebook"><img src="/images/facebook.svg" alt="facebook" width="50px" class="social-image"></a>
+                    <a href="#" title="Instagram"><img src="/images/instagram.svg" alt="Instagram" width="50px" class="social-image"></a>
+                    <a href="#" title="Email"><img src="/images/mail.svg" alt="Email" width="50px" class="social-image"></a>
+                </div>
+            </div>
+        </div>
+        
+        <div style="text-align: center; margin-top: 30px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.2);">
+            <p style="font-size: 16px;">&copy; 2025 Crafted Charm. All rights reserved.</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
